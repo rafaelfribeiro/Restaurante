@@ -1,0 +1,46 @@
+# Diretórios e arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de ambientes virtuais
+venv/
+.env/
+
+# Arquivos do SQLite
+*.db
+*.sqlite
+
+# Arquivos de log
+*.log
+
+# Arquivos de cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos gerados pelo Flask
+instance/
+*.db-journal
+
+# Arquivos de migrações (se estiver usando Flask-Migrate)
+migrations/
+
+# Arquivos de configurações do editor (Ex: VSCode, Sublime, etc)
+.vscode/
+.idea/
+
+# Arquivos de dependências do Python
+*.egg-info/
+*.egg
+
+# Arquivos de pacotes de dependências do pip
+pip-wheel-metadata/
+
+# Arquivos de configuração do pyenv
+.python-version
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Outros arquivos específicos do projeto
+*.sqlite3

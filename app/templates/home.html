@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center">
+    <h1>Bem-vindo ao Restaurante Gostoso!</h1>
+    <p>Faça uma reserva ou faça seu pedido diretamente.</p>
+    <a href="{{ url_for('reservation') }}" class="btn btn-primary">Reservar uma Mesa</a>
+    <a href="{{ url_for('order') }}" class="btn btn-success">Fazer Pedido</a>
+</div>
+{% endblock %}
